@@ -13,8 +13,8 @@ spec:
         app: python-app
     spec:
       containers:
-      - name: my-python-app
-        image: 211223789150.dkr.ecr.us-east-2.amazonaws.com/my-python-repo
+      - name: eks-devops-nginx
+        image: 253584502323.dkr.ecr.ap-southeast-1.amazonaws.com/eks-devops-nginx
         imagePullPolicy: Always
 # service type loadbalancer       
 ---
