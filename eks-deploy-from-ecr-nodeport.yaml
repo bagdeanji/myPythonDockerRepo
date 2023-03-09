@@ -16,6 +16,8 @@ spec:
       - name: eks-devops-nginx
         image: 253584502323.dkr.ecr.ap-southeast-1.amazonaws.com/eks-devops-nginx
         imagePullPolicy: Always
+    ports:
+      - containerPort: 80
 # service type loadbalancer       
 ---
 apiVersion: v1
